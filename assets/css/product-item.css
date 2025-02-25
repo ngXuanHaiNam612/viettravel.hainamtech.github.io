@@ -1,0 +1,46 @@
+.main-layout {
+    width: 100%;
+    background-color: white !important;
+
+}
+
+.item-details {
+    width: 100%;
+    background-color:aliceblue ;
+
+}
+
+.item-details img {
+    width: 1100px;
+    margin-left: 100px;
+}
+.item-details .detail{
+    padding-left: 150px;
+}
+
+.item-details .lable-item {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.item-details{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.item-details .price {
+    color: red;
+    font-weight: bold;
+}
+
+.item-details span{
+    color: blue;
+    font-weight: bold;
+    
+}
+.trip-schedule{
+    padding-left: 0px !important;
+    background-color: white !important;
+
+
+}

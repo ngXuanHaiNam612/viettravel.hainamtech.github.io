@@ -1,0 +1,206 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body>.container {
+    background-color: #e4e8ec;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+/* header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav>.container {
+    position: relative;
+    background-color: #2C3E50;
+
+}
+
+/* nav */
+.nav-left {
+    text-align: right;
+    float: left;
+    width: 30%;
+}
+
+.nav-right {
+    text-align: left;
+    float: right;
+    width: 30%;
+}
+
+header nav>.container .logo {
+    width: 40%;
+
+}
+
+header nav>.container .logo span {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: rgba(252, 252, 251, 0.699);
+    text-shadow: 2px 2px 50px rgba(224, 201, 124, 0.89);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/* nav > ul li */
+.menu ul {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+    margin: 15px auto;
+    list-style: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.menu ul>li {
+    display: inline-block;
+}
+
+
+.menu ul>li>a {
+    display: block;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: #2C3E50;
+    box-shadow: 0 0 1px gray;
+
+}
+
+.menu ul>li>a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 20px;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu ul ul a:hover {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.menu ul>li>a:hover {
+    text-shadow: 0 0 20px rgba(76, 121, 163, 0.352);
+    font-size: 20px;
+}
+
+.menu ul>li:hover>ul {
+    display: block;
+}
+
+/* footer */
+footer {
+    background-color: #2C3E50;
+    height: 230px;
+    margin-top: 10px;
+}
+
+footer .container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2C3E50;
+}
+
+footer .container .col-25 {
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 20px;
+
+}
+
+footer .container .col-left {
+    width: 30%;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+footer .container .col-center {
+    padding-left: 120px;
+}
+
+footer .container .col-right {
+    width: 30%;
+    padding-left: 100px;
+    text-align: justify;
+}
+
+
+footer .container .col-25 .row-25 {
+    height: 25%;
+    width: 100%;
+    display: inline-block;
+    color: white;
+}
+
+footer .container .col-25 .row-25 .logo-wrapper {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: rgba(252, 252, 251, 0.699);
+    text-shadow: 2px 2px 50px rgba(224, 201, 124, 0.89);
+
+}
+
+
+footer .container .col-25 .title>span {
+    font-size: 24px;
+
+}
+
+footer .container .col-25 .row-25>a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .container .col-25 .title {
+    color: #f2a03e;
+}
+
+.coppy-right {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}

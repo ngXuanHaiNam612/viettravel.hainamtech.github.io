@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Smooch Sans Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Playwrite Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/header-footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <nav class="menu">
+                <div class="container">
+                    <ul class="nav nav-left">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Trang chủ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Tour du lịch <i class="fa fa-angle-down"
+                                    data-toggle="dropdown"></i></a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item-lv2">
+                                    <a class="nav-link" href="#">Miền Bắc</a>
+                                </li>
+                                <li class="nav-item-lv2">
+                                    <a class="nav-link" href="#">Miền Trung</a>
+                                </li>
+                                <li class="nav-item-lv2">
+                                    <a class="nav-link" href="#">Miền Nam</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="logo">
+                        <li>
+                            <a href="index.html" class="logo-wrapper">
+                                <span>
+                                    VietTravel
+                                </span>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                    <ul class="nav nav-right">
+                        <li class="nav-item "><a class="nav-link" href="car-checkout.html"><i
+                                    class="fa fa-shopping-cart"></i></a></li>
+                        <li class="nav-item "><a class="nav-link" href="login.html">Đăng nhập</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Đăng ký</a></li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </header>
+        <!-- Body -->
+        <div class="login-register">
+            <div class="auth-wrapper">
+                <div class="auth-container">
+                    <div class="auth-overlay"></div>
+
+                    <div class="auth-text">VietTravel<span> Hành trình đẳng cấp</span></div>
+                    
+                    <div class="auth-form" id="authForm">
+
+                        <div class="tabs">
+                            <button class="tab-button active" id="loginTab">Đăng nhập</button>
+                            <button class="tab-button" id="registerTab">Đăng ký</button>
+                        </div>
+
+                        <div class="tab-content active" id="loginContent">
+                            <h2>Đăng nhập</h2>
+                            <form>
+                                <div class="input-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                                <div class="input-group">
+                                    <label for="password">Mật khẩu</label>
+                                    <input type="password" id="password" name="password">
+                                </div>
+                                <label class="remember">
+                                    <input type="checkbox" name="remember"> Ghi nhớ mật khẩu
+
+                                </label>
+                                <a href="#" class="forgot">Quên mật khẩu?</a>
+                                <button type="submit">Đăng nhập</button>
+                            </form>
+                        </div>
+                        <div class="tab-content" id="registerContent">
+                            <h2>Đăng ký</h2>
+                            <form action="register_process.php" method="POST">
+                                <div class="input-group">
+                                    <label for="reg-email">Email</label>
+                                    <input type="email" id="reg-email" name="email" required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="reg-password">Mật khẩu</label>
+                                    <input type="password" id="reg-password" name="password" required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="confirm-password">Xác nhận mật khẩu</label>
+                                    <input type="password" id="confirm-password" name="confirm-password" required>
+                                </div>
+                                <button type="submit">Đăng ký</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="col-25 col-left">
+                    <div class="row-25">
+                        <span class="logo-wrapper">
+                            VietTravel
+                        </span>
+                    </div>
+                    <div class="row-25">
+                        <a>Tên công ty</a>
+                        <span>Công Ty TNHH Dịch Vụ Du Lịch Và Sự Kiện VietTravel</span>
+
+                    </div>
+                    <div class="row-25">
+                        <a>Địa chỉ</a>
+                        <span>895/1 Quang Trung, P.14, Quận Gò Vấp, TP.HCM</span>
+                    </div>
+                    <div class="row-25">
+                        <a>Hotline: </a>
+                        <span>+0274 123 123</span>
+                    </div>
+
+                </div>
+                <div class="col-25 col-center">
+                    <div class="row-25 title">
+                        <span>Tour</span>
+                    </div>
+                    <div class="row-25">
+                        <a href="#">Miền Bắc</a>
+
+                    </div>
+                    <div class="row-25">
+                        <a href="#">Miền Trung</a>
+
+                    </div>
+                    <div class="row-25">
+                        <a href="#">Miền Nam</a>
+                    </div>
+
+                </div>
+                <div class="col-25 col-center">
+                    <div class="row-25 title">
+                        <span>Thông Tin</span>
+                    </div>
+                    <div class="row-25">
+                        <a href="#">Giới thiệu dịch vụ</a>
+
+                    </div>
+                    <div class="row-25">
+                        <a href="#">Quy chế hoạt đông</a>
+
+                    </div>
+                    <div class="row-25">
+                        <a href="#">Chính sách và điều khoản</a>
+                    </div>
+
+                </div>
+                <div class="col-25 col-right">
+                    <div class="row-25 title">
+                        <span>Kết nối</span>
+                    </div>
+                    <div class="row-25">
+
+                        <a href="#">Facebook <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+                    <div class="row-25">
+                        <a href="#">Instagram <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="coppy-right">
+                <span></span>HN-Dev © 2024. All rights reserved.</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+<script>
+    document.getElementById('loginTab').addEventListener('click', function () {
+        document.getElementById('loginContent').classList.add('active');
+        document.getElementById('registerContent').classList.remove('active');
+        this.classList.add('active');
+        document.getElementById('registerTab').classList.remove('active');
+    });
+
+    document.getElementById('registerTab').addEventListener('click', function () {
+        document.getElementById('registerContent').classList.add('active');
+        document.getElementById('loginContent').classList.remove('active');
+        this.classList.add('active');
+        document.getElementById('loginTab').classList.remove('active');
+    });
+</script>

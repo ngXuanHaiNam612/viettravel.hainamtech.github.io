@@ -1,0 +1,317 @@
+/* main-layout */
+
+
+.section {
+    width: 100%;
+    display: inline-block;
+}
+
+#section1 {
+    height: 650px;
+    position: relative;
+}
+
+#section1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+
+}
+
+#section1 span {
+    width: 100%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 15px;
+    font-size: 220px;
+    color: rgba(122, 199, 21, 0.514);
+    text-shadow: 2px 2px 20px rgba(237, 245, 130, 0.89);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#section1 button {
+    width: 25%;
+    height: 10%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Phantomsans, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 20px rgba(237, 245, 130, 0.89);
+    text-decoration: none;
+    cursor: pointer;
+
+    box-shadow: 0 0px 30px rgba(152, 65, 252, 0.473);
+    background-image: linear-gradient(144deg, #6ecec98f, #918be7 50%, #4d8084a2);
+    border-radius: 8px;
+    border: none;
+}
+
+#section1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+#info>div {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#info span {
+    display: inline-block;
+    font-family: "Playwrite VN", serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 66px;
+}
+
+#section2 {
+
+    height: 1100px;
+}
+
+#section2 .row-5 {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+#section2 .col-3 {
+    height: 100%;
+    width: 370px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #d0d5d895;
+    border-radius: 10px;
+}
+
+#section2 .col-3:hover {
+    background-color: rgba(91, 186, 230, 0.89);
+    box-shadow: 0 0 50px rgb(45, 126, 163);
+}
+
+#section2 .col-3 img {
+    max-width: 100%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+#section2 .col-3 .content {
+    padding: 10px;
+    color: #333;
+}
+
+#section2 .col-3 .content>span {
+    display: block;
+}
+
+#section2 .col-3 .content .name {
+    font-family: "Playwrite VN", serif;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+#section2 .col-3 .content .title {
+    font-size: 14px;
+    font-weight: bolder;
+    color: aliceblue;
+    text-align: justify;
+}
+
+#section2 .col-3 .content .info {
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    /* font-family: Apple Chancery, cursive; */
+}
+
+#section3 {
+    margin-top: 80px;
+    height: 310px;
+    background-color: rgba(141, 221, 221, 0.644);
+}
+
+#section3 .content {
+    display: flex;
+}
+
+#section3 .w-65 {
+    width: 75%;
+    height: 100%;
+    padding: 0 0px;
+}
+
+#section3 .w-65 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+    padding: 0 0;
+}
+
+#section3 .w-65 img:hover {
+    content: url('../img/Trang-An-02.jpg');
+}
+
+#section3 .w-35 {
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    text-align: justify;
+}
+
+#section3 .w-35>div {
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.smooch-sans-content {
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 29px;
+    padding-right: 10px;
+}
+
+#section4 {
+    margin-top: 30px;
+    height: 500px;
+}
+
+#section4 .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section4 .col-5 {
+    width: 45%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#section4 .col-5 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+    padding: 0 0;
+    border-radius: 10px;
+}
+
+#section4 .col-5>div {
+    justify-content: center;
+    text-align: justify;
+}
+
+#section4 .col-5>div span {
+    width: 100%;
+    height: 100px;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+}
+
+#section4 .col-5>div span>button {
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(144deg, #6ecec98f, #918be7 50%, #4d8084a2);
+}
+
+#section4 .col-5>div span>button:hover {
+    background-image: linear-gradient(144deg, #6ecec9e5, #918be7 50%, #4d8084e1);
+    box-shadow: 0 0 20px rgba(141, 221, 221, 0.644);
+}
+
+
+
+
+#section5 {
+    margin-top: 30px;
+    height: 315px;
+}
+
+#section5 .content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#section5 .col {
+    align-items: center;
+    justify-content: center;
+}
+
+#section5 .col-3 {
+    width: 32.5%;
+    height: 100%;
+}
+
+#section5 .col-4 {
+    width: 35%;
+    height: 100%;
+}
+
+#section5 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    display: block;
+    padding: 0 0;
+}
+
+#section5 .content .info {
+    position: absolute;
+    width: 80%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(141, 221, 221, 0.103);
+    text-align: center;
+}
+
+#section5 .content .info span {
+    font-family: fangsong;
+    color: #e1ff74ee;
+    font-weight: bolder;
+    font-size: 120px;
+    letter-spacing: 50px;
+    text-shadow: 0 0 40px rgba(235, 36, 36, 0.952);
+
+}
+
+#section5 .content .info hr {
+    border: thick springgreen 2px;
+    width: 70%;
+}
+
+
